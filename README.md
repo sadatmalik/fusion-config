@@ -13,7 +13,7 @@ mvn clean package dockerfile:build
 Run the Docker image using the following docker command:
 
 ```bash
-docker run -d -p 8082:8082 fusion/fusion-config:0.0.1-SNAPSHOT
+docker run -d -p 8071:8071 fusion/fusion-config:0.0.1-SNAPSHOT
 ```
 
-Or you may start the services using docker compose in [Fusion Web](https://github.com/sadatmalik/fusion-web).
+You may also start the service via docker compose at [Fusion Web](https://github.com/sadatmalik/fusion-web).

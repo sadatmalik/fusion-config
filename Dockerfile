@@ -41,4 +41,4 @@ ENTRYPOINT ["java","-cp","app:app/lib/*","com.sadatmalik.fusionconfig.FusionConf
 # mvn clean package dockerfile:build
 
 # Run the docker container:
-# docker run -p 8082:8082 fusion/fusion-config:0.0.1-SNAPSHOT
+# docker run -p 8071:8071 fusion/fusion-config:0.0.1-SNAPSHOT
